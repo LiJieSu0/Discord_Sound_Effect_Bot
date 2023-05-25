@@ -1,0 +1,22 @@
+{
+  "name": "se_bot",
+  "version": "1.0.0",
+  "description": "A sound effect bot for discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "nodemon index.js"
+  },
+  "author": "KanSu",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.0",
+    "discord": "^0.8.2",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "ffmpeg-static": "^5.1.0",
+    "libsodium-wrappers": "^0.7.11",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7"
+  }
+}
